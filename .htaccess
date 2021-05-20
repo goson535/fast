@@ -1,9 +1,6 @@
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (yandex|googlebot|gaisbot|rambler|aport|metacrawler|msnbot|crawler) [NC]
-RewriteCond %{HTTP_HOST} ^(www.)?topfast.azurewebsites.net$
-RewriteRule ^(.*)$ https://fastcasino.azurewebsites.net/$1 [R=301,L,QSA]
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
