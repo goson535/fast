@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'admin_faazur' );
+define( 'DB_NAME', 'admin_fastocean' );
 
 /** Имя пользователя MySQL */
-define( 'DB_USER', 'admin_faazur' );
+define( 'DB_USER', 'admin_fastocean' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'Hk8ecT0IyH' );
+define( 'DB_PASSWORD', 'TP3CPA6Mib' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', '92.119.113.153:3306' );
